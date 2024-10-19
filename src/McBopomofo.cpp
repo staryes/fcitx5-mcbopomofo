@@ -1191,6 +1191,9 @@ void McBopomofoEngine::handleCandidatesState(fcitx::InputContext* context,
     } else if (keysConfig == SelectionKeys::Key_asdfzxcvb) {
       selectionKeys_ = fcitx::Key::keyListFromString("a s d f z x c v b");
       numpadSelectionKeys_ = fcitx::KeyList();
+    } else if (keysConfig == SelectionKeys::Key_qwerasdfg) {
+      selectionKeys_ = fcitx::Key::keyListFromString("q w e r a s d f g");
+      numpadSelectionKeys_ = fcitx::KeyList();
     } else {
       selectionKeys_ = fcitx::Key::keyListFromString("1 2 3 4 5 6 7 8 9");
       numpadSelectionKeys_ = fcitx::KeyList();

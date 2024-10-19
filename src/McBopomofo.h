@@ -64,9 +64,10 @@ enum class SelectionKeys {
   Key_123456789,
   Key_asdfghjkl,
   Key_asdfzxcvb,
+  Key_qwerasdfg,
 };
 FCITX_CONFIG_ENUM_NAME_WITH_I18N(SelectionKeys, N_("123456789"),
-                                 N_("asdfghjkl"), N_("asdfzxcvb"));
+                                 N_("asdfghjkl"), N_("asdfzxcvb"), N_("qwerasdfg"));
 
 enum class CandidateLayoutHint { NotSet, Vertical, Horizontal };
 FCITX_CONFIG_ENUM_NAME_WITH_I18N(CandidateLayoutHint, N_("Not Set"),
